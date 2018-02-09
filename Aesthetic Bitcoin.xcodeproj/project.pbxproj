@@ -97,11 +97,11 @@
 		5951016E202CD93800D45B0D /* Aesthetic Bitcoin */ = {
 			isa = PBXGroup;
 			children = (
-				5951016F202CD93800D45B0D /* AppDelegate.swift */,
-				59510171202CD93800D45B0D /* ViewController.swift */,
-				59510173202CD93800D45B0D /* Main.storyboard */,
-				59510176202CD93800D45B0D /* Assets.xcassets */,
+				5951019F202CD96300D45B0D /* Controller */,
+				5951019D202CD94C00D45B0D /* Model */,
+				5951019E202CD95800D45B0D /* View */,
 				59510178202CD93800D45B0D /* LaunchScreen.storyboard */,
+				59510176202CD93800D45B0D /* Assets.xcassets */,
 				5951017B202CD93800D45B0D /* Info.plist */,
 			);
 			path = "Aesthetic Bitcoin";
@@ -123,6 +123,30 @@
 				59510191202CD93800D45B0D /* Info.plist */,
 			);
 			path = "Aesthetic BitcoinUITests";
+			sourceTree = "<group>";
+		};
+		5951019D202CD94C00D45B0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5951019E202CD95800D45B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59510173202CD93800D45B0D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5951019F202CD96300D45B0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59510171202CD93800D45B0D /* ViewController.swift */,
+				5951016F202CD93800D45B0D /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
