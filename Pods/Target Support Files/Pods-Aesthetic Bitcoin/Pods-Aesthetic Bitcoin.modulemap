@@ -1,0 +1,6 @@
+framework module Pods_Aesthetic_Bitcoin {
+  umbrella header "Pods-Aesthetic Bitcoin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.6.0)
+  - SwiftyJSON (4.0.0)
+  - ZLSwipeableViewSwift (0.0.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftyJSON
+  - ZLSwipeableViewSwift (from `https://github.com/zhxnlai/ZLSwipeableViewSwift.git`, commit `59826e2`)
+
+EXTERNAL SOURCES:
+  ZLSwipeableViewSwift:
+    :commit: 59826e2
+    :git: https://github.com/zhxnlai/ZLSwipeableViewSwift.git
+
+CHECKOUT OPTIONS:
+  ZLSwipeableViewSwift:
+    :commit: 59826e2
+    :git: https://github.com/zhxnlai/ZLSwipeableViewSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  ZLSwipeableViewSwift: 488041f77089bfc03fe1419579ef32e976709f5d
+
+PODFILE CHECKSUM: cc993f3bc04cc765dcb0672b9f13dedd70c8135e
+
+COCOAPODS: 1.4.0

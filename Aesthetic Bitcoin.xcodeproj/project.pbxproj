@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EBB65A46342F3C25DE5246A /* Pods_Aesthetic_BitcoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7FCFF81279A185C402F5B /* Pods_Aesthetic_BitcoinTests.framework */; };
+		5910F472202DB4B60018AAA5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910F471202DB4B60018AAA5 /* CardView.swift */; };
 		59510170202CD93800D45B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951016F202CD93800D45B0D /* AppDelegate.swift */; };
 		59510172202CD93800D45B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510171202CD93800D45B0D /* ViewController.swift */; };
 		59510175202CD93800D45B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59510173202CD93800D45B0D /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		5951017A202CD93800D45B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59510178202CD93800D45B0D /* LaunchScreen.storyboard */; };
 		59510185202CD93800D45B0D /* Aesthetic_BitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59510184202CD93800D45B0D /* Aesthetic_BitcoinTests.swift */; };
 		59510190202CD93800D45B0D /* Aesthetic_BitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951018F202CD93800D45B0D /* Aesthetic_BitcoinUITests.swift */; };
+		59ECD72B202D6F670072DE94 /* GradientBackgroud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ECD72A202D6F670072DE94 /* GradientBackgroud.swift */; };
+		59ECD72D202D95770072DE94 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ECD72C202D95770072DE94 /* CurrencyModel.swift */; };
+		96877524521CCAB6225B885C /* Pods_Aesthetic_Bitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192343144CE331845377A2A5 /* Pods_Aesthetic_Bitcoin.framework */; };
+		A4AF79EB4D6BBAAA25DB6D9C /* Pods_Aesthetic_BitcoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C68482138D3F804778EA59C /* Pods_Aesthetic_BitcoinUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173E4F01F6BE3E1AC535C5E2 /* Pods-Aesthetic BitcoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic BitcoinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic BitcoinTests/Pods-Aesthetic BitcoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		192343144CE331845377A2A5 /* Pods_Aesthetic_Bitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aesthetic_Bitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5910F471202DB4B60018AAA5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5951016C202CD93800D45B0D /* Aesthetic Bitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aesthetic Bitcoin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5951016F202CD93800D45B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59510171202CD93800D45B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		5951018B202CD93800D45B0D /* Aesthetic BitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aesthetic BitcoinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5951018F202CD93800D45B0D /* Aesthetic_BitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aesthetic_BitcoinUITests.swift; sourceTree = "<group>"; };
 		59510191202CD93800D45B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59ECD72A202D6F670072DE94 /* GradientBackgroud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroud.swift; sourceTree = "<group>"; };
+		59ECD72C202D95770072DE94 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		70A41BEAE993F85D01FB1C93 /* Pods-Aesthetic BitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic BitcoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic BitcoinUITests/Pods-Aesthetic BitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C68482138D3F804778EA59C /* Pods_Aesthetic_BitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aesthetic_BitcoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A375D6FE583D5DB105B0CA9F /* Pods-Aesthetic Bitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic Bitcoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic Bitcoin/Pods-Aesthetic Bitcoin.release.xcconfig"; sourceTree = "<group>"; };
+		A8F7FCFF81279A185C402F5B /* Pods_Aesthetic_BitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aesthetic_BitcoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84FFCA9A865E663962F071D /* Pods-Aesthetic BitcoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic BitcoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic BitcoinUITests/Pods-Aesthetic BitcoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC4DC7838928B890752BD501 /* Pods-Aesthetic BitcoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic BitcoinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic BitcoinTests/Pods-Aesthetic BitcoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F87968C8D1139265DCF02DB6 /* Pods-Aesthetic Bitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aesthetic Bitcoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aesthetic Bitcoin/Pods-Aesthetic Bitcoin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96877524521CCAB6225B885C /* Pods_Aesthetic_Bitcoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBB65A46342F3C25DE5246A /* Pods_Aesthetic_BitcoinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF79EB4D6BBAAA25DB6D9C /* Pods_Aesthetic_BitcoinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57335F3F0CC926028676CE4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				192343144CE331845377A2A5 /* Pods_Aesthetic_Bitcoin.framework */,
+				A8F7FCFF81279A185C402F5B /* Pods_Aesthetic_BitcoinTests.framework */,
+				7C68482138D3F804778EA59C /* Pods_Aesthetic_BitcoinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59510163202CD93800D45B0D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				59510183202CD93800D45B0D /* Aesthetic BitcoinTests */,
 				5951018E202CD93800D45B0D /* Aesthetic BitcoinUITests */,
 				5951016D202CD93800D45B0D /* Products */,
+				A851305D68EF34A7EABB4DFC /* Pods */,
+				57335F3F0CC926028676CE4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +161,7 @@
 		5951019D202CD94C00D45B0D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				59ECD72C202D95770072DE94 /* CurrencyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				59510173202CD93800D45B0D /* Main.storyboard */,
+				59ECD72A202D6F670072DE94 /* GradientBackgroud.swift */,
+				5910F471202DB4B60018AAA5 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,6 +185,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		A851305D68EF34A7EABB4DFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F87968C8D1139265DCF02DB6 /* Pods-Aesthetic Bitcoin.debug.xcconfig */,
+				A375D6FE583D5DB105B0CA9F /* Pods-Aesthetic Bitcoin.release.xcconfig */,
+				CC4DC7838928B890752BD501 /* Pods-Aesthetic BitcoinTests.debug.xcconfig */,
+				173E4F01F6BE3E1AC535C5E2 /* Pods-Aesthetic BitcoinTests.release.xcconfig */,
+				70A41BEAE993F85D01FB1C93 /* Pods-Aesthetic BitcoinUITests.debug.xcconfig */,
+				C84FFCA9A865E663962F071D /* Pods-Aesthetic BitcoinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59510194202CD93800D45B0D /* Build configuration list for PBXNativeTarget "Aesthetic Bitcoin" */;
 			buildPhases = (
+				F6657BF43334EB0B471AC786 /* [CP] Check Pods Manifest.lock */,
 				59510168202CD93800D45B0D /* Sources */,
 				59510169202CD93800D45B0D /* Frameworks */,
 				5951016A202CD93800D45B0D /* Resources */,
+				223618EDFA30A82E06391C88 /* [CP] Embed Pods Frameworks */,
+				E7A86A5352057367A6A6F788 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59510197202CD93800D45B0D /* Build configuration list for PBXNativeTarget "Aesthetic BitcoinTests" */;
 			buildPhases = (
+				AAE9CD4CDE8F4F8D8237E663 /* [CP] Check Pods Manifest.lock */,
 				5951017C202CD93800D45B0D /* Sources */,
 				5951017D202CD93800D45B0D /* Frameworks */,
 				5951017E202CD93800D45B0D /* Resources */,
+				7BE9CF9235757F15EE5AEE6F /* [CP] Embed Pods Frameworks */,
+				0C17BAFA558C097E9AD1415D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5951019A202CD93800D45B0D /* Build configuration list for PBXNativeTarget "Aesthetic BitcoinUITests" */;
 			buildPhases = (
+				A17F2911F8EE1237FD00CB8F /* [CP] Check Pods Manifest.lock */,
 				59510187202CD93800D45B0D /* Sources */,
 				59510188202CD93800D45B0D /* Frameworks */,
 				59510189202CD93800D45B0D /* Resources */,
+				42C6B9B33FDCC76180DEB0D8 /* [CP] Embed Pods Frameworks */,
+				064DB9DDFD03D59DDEACEF7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,13 +336,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		064DB9DDFD03D59DDEACEF7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic BitcoinUITests/Pods-Aesthetic BitcoinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C17BAFA558C097E9AD1415D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic BitcoinTests/Pods-Aesthetic BitcoinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		223618EDFA30A82E06391C88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic Bitcoin/Pods-Aesthetic Bitcoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLSwipeableViewSwift/ZLSwipeableViewSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLSwipeableViewSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic Bitcoin/Pods-Aesthetic Bitcoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C6B9B33FDCC76180DEB0D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic BitcoinUITests/Pods-Aesthetic BitcoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE9CF9235757F15EE5AEE6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic BitcoinTests/Pods-Aesthetic BitcoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17F2911F8EE1237FD00CB8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aesthetic BitcoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE9CD4CDE8F4F8D8237E663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aesthetic BitcoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A86A5352057367A6A6F788 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aesthetic Bitcoin/Pods-Aesthetic Bitcoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6657BF43334EB0B471AC786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aesthetic Bitcoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59510168202CD93800D45B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				59510172202CD93800D45B0D /* ViewController.swift in Sources */,
+				59ECD72B202D6F670072DE94 /* GradientBackgroud.swift in Sources */,
+				59ECD72D202D95770072DE94 /* CurrencyModel.swift in Sources */,
 				59510170202CD93800D45B0D /* AppDelegate.swift in Sources */,
+				5910F472202DB4B60018AAA5 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +663,7 @@
 		};
 		59510195202CD93800D45B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87968C8D1139265DCF02DB6 /* Pods-Aesthetic Bitcoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +679,7 @@
 		};
 		59510196202CD93800D45B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A375D6FE583D5DB105B0CA9F /* Pods-Aesthetic Bitcoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +695,7 @@
 		};
 		59510198202CD93800D45B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4DC7838928B890752BD501 /* Pods-Aesthetic BitcoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +713,7 @@
 		};
 		59510199202CD93800D45B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173E4F01F6BE3E1AC535C5E2 /* Pods-Aesthetic BitcoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +731,7 @@
 		};
 		5951019B202CD93800D45B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A41BEAE993F85D01FB1C93 /* Pods-Aesthetic BitcoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +748,7 @@
 		};
 		5951019C202CD93800D45B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84FFCA9A865E663962F071D /* Pods-Aesthetic BitcoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
